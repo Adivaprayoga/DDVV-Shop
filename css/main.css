@@ -19,10 +19,6 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-.container{
-  max-width: 1080px;
-  margin: 0 auto;
-}
 
 /* HEADER */
 
@@ -76,12 +72,6 @@ body{
   z-index: 2;
 }
 
-.nav-menu{
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
-
 .nav-menu li {
 	margin-left: 10px;
 	position: relative;
@@ -121,7 +111,8 @@ body{
 
 /* BANNER */
 .banner{
-   background: url('../img/a.jpg') no-repeat;
+   background: linear-gradient(180deg, rgb(255,255,255, 0), rgb(15,32,39, 1)) , url('../img/sh.jpg') no-repeat;
+   /* background: url('../img/sh.jpg') no-repeat; */
    background-size: cover;
    background-attachment: fixed;
 }
@@ -166,4 +157,36 @@ body{
 @keyframes action {
   0% { transform: translateY(0); }
   100% { transform: translateY(-20px); }
+}
+
+/* POST */
+
+.main-title-logo{
+  font-family: 'Rubik Mono One', sans-serif;
+  font-style: italic;
+  letter-spacing: -5px;
+}
+
+.subtitle-post{
+  letter-spacing: 5px;
+  color: #484848;
+  font-size: 26px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.main-title-post{
+  letter-spacing: 5px;
+  font-size: 16px;
+  margin-top: 0;
+  font-weight: lighter;
+  color: #222;
+  text-align: center;
+}
+
+.content-post{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 500px;
 }

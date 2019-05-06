@@ -4,11 +4,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Dede Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <title>DDVV | Official Online Store</title>
     <link href="https://fonts.googleapis.com/css?family=Chelsea+Market|Lora|Montserrat|Rubik+Mono+One" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
 
@@ -45,25 +48,49 @@
     <section class="banner">
         <div class="container">
             <div class="banner-content">
-                <h1>
-                  <!-- <span class="banner-logo">
-                  <span class="banner-d">D</span>DVV
-                  </span> -->
+                <h1 id="simpleUsage">
                  The shoes what you need.
                </h1>
                 <a href="#posts" class="scroll">
-                  <img src="../img/main-shoes.svg">
+                  <img src="../img/white-shoes.svg">
                 </a>
             </div>
         </div>
     </section>
 
     <!-- Posts -->
-    <section >
+    <section id="posts" class="posts">
+        <div class="container">
 
+            <h3 class="subtitle-post" data-aos="fade-up">List Product <span class="main-title-logo">DDVV</span></h6>
+            <h1 class="main-title-post" data-aos="fade-down">Tren Shoes</h1>
+            <div class="content-post">
+
+            </div>
+
+        </div>
     </section>
 
     <!-- Optional JavaScript -->
+    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typeit@6.0.2/dist/typeit.min.js"></script>
+    <script type="text/javascript">
+
+    AOS.init();
+
+    window.addEventListener("DOMContentLoaded",function() {
+      var instance = new TypeIt('#simpleUsage', {
+        speed: 50,
+        loop: true,
+        waitUntilVisible: true
+      }).go();
+    });
+
+    </script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
