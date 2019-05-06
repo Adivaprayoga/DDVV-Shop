@@ -15,6 +15,65 @@
   </head>
   <body>
 
+  <!-- Modal Login -->
+  <div class="modal fade" id="ModalLogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title ddvv" id="exampleModalLongTitle">DDVV</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="Login-content" action="#" method="post">
+              <div class="login-user">
+                <label for="">Username</label>
+              </div>
+              <input type="text" name="" value="" class="login-user-form" placeholder="Insert your username" equired>
+              <div class="login-password">
+                <label for="">Password</label>
+              </div>
+              <input type="password" name="" value="" class="login-password-form" placeholder="Insert your password" required>
+              <div class="login-card-button">
+                <input type="submit" name="" value="Login" class="btn">
+              </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Signup -->
+  <div class="modal fade" id="ModalSignup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Signup</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="Login-content" action="#" method="post">
+              <label for="">Username</label>
+              <input type="text" name="" value="">
+              <label for="">Password</label>
+              <input type="text" name="" value="">
+              <label for="">Re-type Password</label>
+              <input type="text" name="" value="">
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 <!-- Header -->
 <div id="header" class="header">
   <div class="container main-menu">
@@ -51,12 +110,132 @@
             <h1 id="simpleUsage" data-aos="fade-right">
              List Product.
            </h1>
-           <a href="#posts" class="scroll">
+           <a href="#cards" class="scroll">
              <img src="../img/white-shoes.svg">
            </a>
         </div>
     </div>
 </section>
+
+<!-- Posts -->
+<section id="cards" class="cards">
+    <div class="container">
+
+        <h3 class="subtitle-post" data-aos="fade-up">About <span class="main-title-logo">DDVV</span></h6>
+        <h1 class="main-title-post" data-aos="fade-down">List <span class="main-title-logo">DDVV</span> Shoes Product</h1>
+
+        <!-- Sneaker Shoes -->
+        <h1 class="type-shoes">Sneakers - Men<span>more > </span></h1>
+        <div class="row content-card-post">
+
+            <div class="col-lg-3 col-md-12 content-card-detail" data-aos="fade-left">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/sneakers.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Sneakers</h5>
+                  <p class="card-text">U-PATH SHOES <br> $170</p>
+                  <a href="#" class="content-card-button"><div class="btn">Order</div></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-12 content-card-detail" data-aos="fade-left">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/sneakers.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Sneakers</h5>
+                  <p class="card-text">U-PATH SHOES <br> $170</p>
+                  <a href="#" class="content-card-button"><div class="btn">Order</div></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-12 content-card-detail" data-aos="fade-left">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/sneakers.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Sneakers</h5>
+                  <p class="card-text">U-PATH SHOES <br> $170</p>
+                  <a href="#" class="content-card-button"><div class="btn">Order</div></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-12 content-card-detail" data-aos="fade-left">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/sneakers.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Sneakers</h5>
+                  <p class="card-text">U-PATH SHOES <br> $170</p>
+                  <a href="#" class="content-card-button"><div class="btn">Order</div></a>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+        <!-- Sport Shoes -->
+        <h1 class="type-shoes">Sport - Men<span>more > </span></h1>
+        <div class="row content-card-post">
+
+            <div class="col-lg-3 col-md-12 content-card-detail" data-aos="fade-left">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/sneakers.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Sneakers</h5>
+                  <p class="card-text">U-PATH SHOES <br> $170</p>
+                  <a href="#" class="content-card-button"><div class="btn">Order</div></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-12 content-card-detail" data-aos="fade-left">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/sneakers.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Sneakers</h5>
+                  <p class="card-text">U-PATH SHOES <br> $170</p>
+                  <a href="#" class="content-card-button"><div class="btn">Order</div></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-12 content-card-detail" data-aos="fade-left">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/sneakers.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Sneakers</h5>
+                  <p class="card-text">U-PATH SHOES <br> $170</p>
+                  <a href="#" class="content-card-button"><div class="btn">Order</div></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-12 content-card-detail" data-aos="fade-left">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/sneakers.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Sneakers</h5>
+                  <p class="card-text">U-PATH SHOES <br> $170</p>
+                  <a href="#" class="content-card-button"><div class="btn">Order</div></a>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- footer -->
+<footer class="footer-area">
+  <div class="container">
+    <p>
+      Copyright &copy; 2019 Created By
+      <a href="https://github.com/Adivaprayoga" target="_blank">Adivaprayoga</a>.
+    </p>
+  </div>
+</footer>
 
 <!-- Optional JavaScript -->
 <script src="js/app.js"></script>
