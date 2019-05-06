@@ -24,15 +24,15 @@ function setNavbarBg() {
 		login.style.color = "#FFF";
 	}
 }
-//
-// function setNavbar(){
-// 	var top = window.pageY0ffset || document.documentElement.scrollTop;
-// 	var navbar = document.getElementById('header');
-//
-// 	if (top > 550){
-// 		navbar.style.top = "-100px";
-// 	}else{
-// 		navbar.style.top = "0";
-// 	}
-//
-// }
+
+function setNavbar(){
+	var top = window.pageY0ffset || document.documentElement.scrollTop;
+	var navbar = document.getElementById('header');
+
+	if (top > 550){
+		navbar.style.top = "-100px";
+	}else{
+		navbar.style.top = "0";
+	}
+
+}

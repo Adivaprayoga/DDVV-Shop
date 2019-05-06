@@ -18,6 +18,10 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+.container{
+  overflow: hidden !important;
+}
+
 
 /* HEADER */
 
@@ -270,4 +274,25 @@ body{
 
 .content-button:hover > .btn{
   color: #fff;
+}
+
+/* Footer */
+
+.footer-area{
+	font-size: 16px;
+	background-color: #fff;
+	color: #484848;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.footer-area p{
+  margin: 0;
+}
+
+.footer-area a{
+  color: #FF5A5F;
+	text-decoration: none;
 }
