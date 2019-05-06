@@ -115,6 +115,11 @@ body{
   .nav-menu #nav-active{
     display: none;
   }
+
+  .nav-menu #nav-login,
+  .nav-menu #nav-signup{
+    display: none;
+  }
 }
 
 /* BANNER */
