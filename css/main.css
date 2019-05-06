@@ -159,7 +159,7 @@ body{
 
 .scroll{
   position: absolute;
-  bottom: 28px;
+  bottom: 35px;
   animation: action 0.5s infinite alternate;
   z-index: 9;
 }

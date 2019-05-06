@@ -24,7 +24,7 @@ function setNavbarBg() {
 		login.style.color = "#FFF";
 	}
 }
-// 
+//
 // function setNavbar(){
 // 	var top = window.pageY0ffset || document.documentElement.scrollTop;
 // 	var navbar = document.getElementById('header');
