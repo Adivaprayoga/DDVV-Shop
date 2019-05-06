@@ -120,6 +120,7 @@ body{
   .nav-menu #nav-signup{
     display: none;
   }
+
 }
 
 /* BANNER */
@@ -143,6 +144,12 @@ body{
   color: #fff;
   font-weight: normal;
   text-align: center;
+}
+
+@media screen and (max-width: 600px){
+  .banner-content h1{
+    font-size: 26px;
+  }
 }
 
 .banner-content h1 .banner-logo{
