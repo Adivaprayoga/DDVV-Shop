@@ -14,12 +14,14 @@ function setNavbarBg() {
 		navbar.classList.add('header-scrolled');
 		logo.style.color = "#FF5A5F";
 		logo.style.letterSpacing = "10px";
+		logo.style.transform = "rotate(5deg)";
 		signup.style.color = "#484848";
 		login.style.color = "#484848";
 	}else{
 		navbar.classList.remove('header-scrolled');
 		logo.style.color = "#FFF";
 		logo.style.letterSpacing = "-5px";
+		logo.style.transform = "rotate(0deg)";
 		signup.style.color = "#FFF";
 		login.style.color = "#FFF";
 	}

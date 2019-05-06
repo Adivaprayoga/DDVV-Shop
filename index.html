@@ -15,6 +15,58 @@
   </head>
   <body>
 
+  <!-- Modal Login -->
+  <div class="modal fade" id="ModalLogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="Login-content" action="#" method="post">
+              <label for="">Username</label>
+              <input type="text" name="" value="">
+              <label for="">Password</label>
+              <input type="text" name="" value="">
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Signup -->
+  <div class="modal fade" id="ModalSignup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Signup</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="Login-content" action="#" method="post">
+              <label for="">Username</label>
+              <input type="text" name="" value="">
+              <label for="">Password</label>
+              <input type="text" name="" value="">
+              <label for="">Re-type Password</label>
+              <input type="text" name="" value="">
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <!-- Header -->
   <div id="header" class="header">
       <div class="container main-menu">
@@ -32,10 +84,10 @@
                           <a href="/" id="nav-active">Home</a>
                       </li>
                       <li>
-                          <a href="product.html" id="nav-login">Product</a>
+                          <a href="#" id="nav-login" data-toggle="modal" data-target="#ModalLogin">Product</a>
                       </li>
                       <li>
-                        <a href="about.html" id="nav-signup">About Us</a>
+                        <a href="#ads" id="nav-signup" >Signup</a>
                       </li>
                   </ul>
               </nav>
@@ -63,7 +115,7 @@
         <div class="container">
 
             <h3 class="subtitle-post" data-aos="fade-up">About <span class="main-title-logo">DDVV</span></h6>
-            <h1 class="main-title-post" data-aos="fade-down">Why choose our product?</h1>
+            <h1 class="main-title-post" data-aos="fade-down">Why choose <span class="main-title-logo">DDVV</span> product?</h1>
 
             <div class="row content-post">
                 <div class="col-lg-6 col-md-12 content-gambar" data-aos="fade-right">
@@ -76,23 +128,23 @@
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                     <div class="content-button">
-                      <div class="btn">more</div>
+                      <div class="btn">next</div>
                     </div>
                 </div>
             </div>
 
             <div class="row content-post">
-                <div class="col-lg-6 col-md-12 content-gambar" data-aos="fade-right">
+              <div class="col-lg-6 col-md-12 order-1 content-detail" data-aos="fade-left">
+                  <h1 class="h1-left">Easy To Order</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                  <div class="content-button">
+                    <div class="btn">next</div>
+                  </div>
+              </div>
+                <div class="col-lg-6 col-md-12 order-2 content-gambar" data-aos="fade-right">
                     <img src="img/order.svg">
-                </div>
-                <div class="col-lg-6 col-md-12 content-detail" data-aos="fade-left">
-                    <h1 class="h1-left">Easy To Order</h1>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <div class="content-button">
-                      <div class="btn">more</div>
-                    </div>
                 </div>
             </div>
 
@@ -106,11 +158,34 @@
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                     <div class="content-button">
-                      <div class="btn">more</div>
+                      <div class="btn">next</div>
                     </div>
                 </div>
             </div>
 
+        </div>
+    </section>
+
+    <section id="ads" class="ads">
+        <div class="container">
+            <div class="ads-content">
+
+                <h1 id="simpleUsage">
+                  Signup To Get 20% Off Discount !
+                </h1>
+
+              <div class="ads-signup">
+                <form autocomplete="off" action="" method="get">
+                    <div class="input-group">
+                        <input type="text" name="username" placeholder="Enter your email" required>
+                        <div class="input-group-prepend">
+                            <button type="submit">Sign up</button>
+                        </div>
+                    </div>
+                </form>
+              </div>
+
+            </div>
         </div>
     </section>
 
