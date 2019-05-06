@@ -184,6 +184,35 @@ body{
   100% { transform: translateY(-20px); }
 }
 
+/* BANNER SUB */
+.banner-sub{
+   background: linear-gradient(180deg, rgb(255,255,255, 0), rgb(15,32,39, 1)) , url('../img/product.jpg') no-repeat;
+   /* background: url('../img/sh.jpg') no-repeat; */
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.banner-sub-content {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+.banner-sub-content h1{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px){
+  .banner-sub-content h1{
+    font-size: 22px;
+  }
+}
+
 /* POST */
 
 .main-title-logo{
@@ -363,7 +392,7 @@ body{
   }
 }
 
-/* Footer */
+/* FOOTER */
 
 .footer-area{
 	font-size: 16px;
