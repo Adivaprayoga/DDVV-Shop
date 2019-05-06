@@ -5,36 +5,63 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Dede Landing Page</title>
-    <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat|Montserrat+Alternates" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chelsea+Market|Lora|Montserrat|Rubik+Mono+One" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
 
-    <!-- Navbar -->
-    <div class="pos-f-t">
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <h5 class="text-white h4">Collapsed content</h5>
-          <span class="text-muted">Toggleable via the navbar brand.</span>
-        </div>
+    <!-- Header -->
+  <div id="header" class="header">
+      <div class="container main-menu">
+          <div class="content-flex content-flex-center">
+              <a href="/">
+                  <div class="logo">
+                      <!-- <img src="img/logo.png"> -->
+                      <p>DDVV</p>
+                  </div>
+              </a>
+
+              <nav class="container-nav-menu">
+                  <ul class="nav-menu">
+                      <li>
+                          <a href="/" class="nav-active">Home</a>
+                      </li>
+                      <li>
+                          <a href="login.html" class="nav-deactive">Login</a>
+                      </li>
+                      <li>
+                          <a href="register.html" class="nav-deactive">Sign Up</a>
+                      </li>
+                  </ul>
+              </nav>
+
+          </div>
       </div>
-      <nav class="navbar navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </nav>
-    </div>
+  </div>
 
-    <!-- Content -->
-    <div class="wrapper">
+    <!-- Banner -->
+    <section class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <h1>
+                  <!-- <span class="banner-logo">
+                  <span class="banner-d">D</span>DVV
+                  </span> -->
+                 The shoes what you need.
+               </h1>
+                <a href="#posts" class="scroll">
+                  <img src="../img/main-shoes.svg">
+                </a>
+            </div>
+        </div>
+    </section>
 
-        <header class="main-header">
+    <!-- Posts -->
+    <section >
 
-        </header>
-
-    </div>
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

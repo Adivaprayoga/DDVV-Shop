@@ -7,8 +7,8 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.8">
         <g id="HomeV3" transform="translate(-708.000000, -831.000000)">
             <g id="Group-7" transform="translate(708.000000, 831.000000)">
-                <rect id="Rectangle-11" stroke="#FFFFFF" stroke-width="2" x="1" y="1" width="23" height="36" rx="11.5"></rect>
-                <rect id="Rectangle-4" fill="#FFFFFF" x="10" y="9" width="5" height="9" rx="2.5"></rect>
+                <rect id="Rectangle-11" stroke="#FF5A5F" stroke-width="2" x="1" y="1" width="23" height="36" rx="11.5"></rect>
+                <rect id="Rectangle-4" fill="#FF5A5F" x="10" y="9" width="5" height="9" rx="2.5"></rect>
             </g>
         </g>
     </g>
